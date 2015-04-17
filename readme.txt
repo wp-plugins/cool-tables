@@ -18,7 +18,7 @@ If you want to see more information, demos or screenshots of this plugin please 
 1. Upload the entire cool tables folder to the /wp-content/plugins/ directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 
-You will find 'Cool Web Tables' menu in your WordPress admin panel (in tools).
+You will find 'Cool Tables' menu in your WordPress admin panel.
 
 == Screenshots ==
 If you want to see screenshots of this plugin please visit http://websensepro.com/cool-tables
