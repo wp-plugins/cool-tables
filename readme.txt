@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: WebSensePro
+Contributors: Bilal Naseer
 Tags: table, tables, css, design, html table, custom tables
 Requires at least: 3.0
 Tested up to: 4.0.1
