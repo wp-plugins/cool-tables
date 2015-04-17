@@ -2,10 +2,10 @@
 Contributors: Bilal Naseer
 Tags: table, tables, css, design, html table, custom tables
 Requires at least: 3.0
-Tested up to: 4.0.1
+Tested up to: 4.1.1
 
 
-A plugin to create cool tables with colors and hover styles
+A plugin to create cool tables with colors and hover styles to improve the over all look of your wordpress theme and website with ability to customize the size and colors.
 
 
 == Description ==
