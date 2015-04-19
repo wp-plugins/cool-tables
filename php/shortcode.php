@@ -32,7 +32,7 @@
 	$class_counter = 1;
 
 	//the table headlines
-	$table .= '<table id="t' . $table_id . '">';
+	$table .= '<div style="overflow-x:auto;"><table id="t' . $table_id . '">';
 	if ($design_elements[15] != 'on') {
 		$table .= '
 		<thead>
@@ -101,5 +101,5 @@
 			$row_counter++;
 		}
 
-	$table .= '</tbody></table>';
+	$table .= '</tbody></table></div>';
 ?>
