@@ -2,7 +2,7 @@
 Contributors: Bilal Naseer
 Tags: table, tables, css, design, html table, custom tables, responsive tables, responsive
 Requires at least: 3.0
-Tested up to: 4.2
+Tested up to: 4.1.2
 
 
 A plugin to create cool responsive tables with colors and hover styles to improve the over all look of your wordpress theme and website.
