@@ -1,6 +1,6 @@
 === Plugin Name ===
 Contributors: Bilal Naseer
-Tags: table, tables, css, design, html table, custom tables, responsive tables, responsive
+Tags: table, tables, css, design, html table, custom tables, responsive tables, responsive, gradient colors, mobile responsive
 Requires at least: 3.0
 Tested up to: 4.2
 
