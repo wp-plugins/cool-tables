@@ -27,8 +27,8 @@ Check out live demo http://websensepro.com/cool-tables
 == Changelog ==
 
 = 1.2 =
-* Minor bug fixex
+* Minor bug fixes
 = 1.1 =
-* Added responsive scroller for mobiles and ipads
+* Added responsive scroll for Mobiles and I-pads
 = 1.0 =
 * The plugin is released
