@@ -3,7 +3,7 @@
 Plugin Name: Cool Tables
 Plugin URI: http://websensepro.com/cool-tables
 Description: Create stylish and cool wordpress tables for pages and posts.
-Version: 1.1
+Version: 1.2
 Author: Bilal Naseer
 Author URI: http://websensepro.com
 */
@@ -104,7 +104,7 @@ function cool_tables_admin_register_head()
 function cool_tables_install_plugin() 
 {
 	$cool_tables_db_version = "1.0";
-	$cool_tables_version = "1.1";
+	$cool_tables_version = "1.2";
 	global $wpdb;
 
 	$table_name = $wpdb->prefix . "cool_tables";
@@ -135,7 +135,7 @@ function cool_tables_install_plugin()
 function cool_tables_update_function() 
 {
 	$cool_tables_db_version = '1.0';
-	$cool_tables_version = '1.1';
+	$cool_tables_version = '1.2';
 	
 	$db_ver = get_site_option('cool_tables_db_version');
 	$plug_ver = get_site_option('cool_tables_version');
@@ -151,7 +151,7 @@ function cool_tables_update_function()
     }
 	if ($plug_ver != $cool_tables_version) 
 	{
-        update_option("cool_tables_version", '1.1');
+        update_option("cool_tables_version", '1.2');
     }
 }
 /*

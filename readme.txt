@@ -26,6 +26,8 @@ Check out live demo http://websensepro.com/cool-tables
 
 == Changelog ==
 
+= 1.2 =
+* Minor bug fixex
 = 1.1 =
 * Added responsive scroller for mobiles and ipads
 = 1.0 =
