@@ -1,6 +1,7 @@
 === Plugin Name ===
 Contributors: Bilal Naseer
 Tags: table, tables, css, design, html table, custom tables, responsive tables, responsive, gradient colors, mobile responsive
+Donate link: http://websensepro.com/plugins/donation/
 Requires at least: 3.0
 Tested up to: 4.2
 
