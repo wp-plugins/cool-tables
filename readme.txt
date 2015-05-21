@@ -12,7 +12,9 @@ A plugin to create cool responsive tables with colors and hover styles to improv
 == Description ==
 Cool Web Tables let you create beautiful responsive tables with stylish colors and hover styles, ability to import and export in CSV format, multiple tables allowed.
 
-If you want to see more information, demos or screenshots of this plugin please visit http://websensepro.com/cool-tables. 
+If you want to see more information, demos or screenshots of this plugin please visit http://websensepro.com/cool-tables
+
+Recommended plugin: https://wordpress.org/plugins/custom-social-icons
 
 == Installation ==
 
