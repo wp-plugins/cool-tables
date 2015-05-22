@@ -6,11 +6,11 @@ Requires at least: 3.0
 Tested up to: 4.2
 
 
-A plugin to create cool responsive tables with colors and hover styles to improve the over all look of your wordpress theme and website.
+Cool Tables is a wordpress table plugin which lets you create create cool responsive tables with colors and hover styles.
 
 
 == Description ==
-Cool Web Tables let you create beautiful responsive tables with stylish colors and hover styles, ability to import and export in CSV format, multiple tables allowed.
+Cool Tables is a wordpress table plugin which lets you create beautiful responsive tables with stylish colors and hover styles, ability to import and export in CSV format, multiple tables allowed.
 
 If you want to see more information, demos or screenshots of this plugin please visit http://websensepro.com/cool-tables
 
