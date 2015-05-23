@@ -2,7 +2,7 @@
 Contributors: bilalnaseer
 Tags: table, tables, css, design, html table, custom tables, responsive tables, responsive, gradient colors, mobile responsive
 Donate link: http://websensepro.com/plugins/donation/
-Requires at least: 3.0
+Requires at least: 3.5
 Tested up to: 4.2
 
 
