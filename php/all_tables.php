@@ -98,20 +98,16 @@ echo '
 			<h3 class="hndle"><span>Choose file</span></h3>
 			<div class="inside">
 				<p>
-					<a href="?page=cool_tables&action=ws_import_table" class="button-secondary">Import table via .csv file</a> (in Beta)
+					<a href="?page=cool_tables&action=ws_import_table" class="button-secondary">Import table via .csv file</a>
 				</p>
 				<p>
 					Table Name:<input type="text" id="tablename" name="table_name" class="reg-text-ws" style="width:300px;" />
-				</p>
-				<p>
 					Number of Rows:<input type="text" id="numrows" name="num_rows" style="width: 80px;"/>
-				</p>
-				<p>
 					Number of Columns:<input type="text" id="numcols" name="num_cols" style="width: 80px;"/>
-				</p>
-				<p class="submit">
+				<span class="submit">
 					<input type="submit" value="Add Table" class="button-secondary" style="width: 100px;" />
 					<input type="hidden" name="create_hidden" />
+				</span>
 				</p>
 			
 			</div>
