@@ -115,7 +115,7 @@ echo '
 	</div>
 </form>
 ';
-echo '<h3 class="admin-above-wide-table">All Tables</h3>	
+echo '<h3 class="admin-above-wide-table">Tables</h3>	
 		<table class="widefat">
 			<thead>
 				<tr>
@@ -166,15 +166,15 @@ echo '<h3 class="admin-above-wide-table">All Tables</h3>
 		echo '<td>' . $results->id . '</td>';
 		echo '<td>' . $results->tablename . ' | <a href="?page=cool_tables&action=rename_table&id=' . $results->id . '">Rename table</a>' . $highlight_txt . '</td>';
 		echo '<td>' . $results->rows . '&#215;' . $results->cols . '</td>';
-		echo '<td><input type="text" id="' . $i . '" onClick="SelectAll(' . $i . ');" value="' . htmlentities($results->shortcode) . '" style="width:170px;" /></td>';
+		echo '<td><input type="text" id="' . $i . '" onClick="SelectAll(' . $i . ');" value="' . htmlentities($results->shortcode) . '" style="width:134px;" /></td>';
 		$short = htmlentities("<?php echo do_shortcode('" . $results->shortcode . "'); ?>");
-		echo '<td><input type="text" id="' . $ii . '" onClick="SelectAll(' . $ii . ');" value="' . $short . '" style="width:270px;" /></td>';
+		echo '<td><input type="text" id="' . $ii . '" onClick="SelectAll(' . $ii . ');" value="' . $short . '" style="width:170px;" /></td>';
 		echo '
-		<td><a href="?page=cool_tables&action=edit_table&id=' . $results->id . '">Edit table Content</a> | 
-		<a href="?page=cool_tables&action=edit_style&id=' . $results->id . '">Edit Structure and Style</a> |';
+		<td><a href="?page=cool_tables&action=edit_table&id=' . $results->id . '">Edit Content</a> | 
+		<a href="?page=cool_tables&action=edit_style&id=' . $results->id . '">Edit Style</a> |';
 		$nonce= wp_create_nonce('duplicate-table');
 		echo '
-		<a href="?page=cool_tables&action=duplicate_table&duplicate_id=' . $results->id . '&_wpnonce=' . $nonce . '">Copy this table</a> | 
+		<a href="?page=cool_tables&action=duplicate_table&duplicate_id=' . $results->id . '&_wpnonce=' . $nonce . '">Copy table</a> | 
 		';
 		$nonce= wp_create_nonce('delete-table');
 		echo '
@@ -186,7 +186,7 @@ echo '<h3 class="admin-above-wide-table">All Tables</h3>
 		';
 		$nonce= wp_create_nonce('export-table-content');
 		echo '
-		<a href="?page=cool_tables&action=export_table_content&export_id=' . $results->id . '&exports_name=' . $results->tablename . '&_wpnonce=' . $nonce . '">Export Content (.csv)</a></td>
+		<a href="?page=cool_tables&action=export_table_content&export_id=' . $results->id . '&exports_name=' . $results->tablename . '&_wpnonce=' . $nonce . '">Export to (.csv)</a></td>
 		';
 		echo '</td></tr>';
 		$i++;

@@ -33,20 +33,20 @@
     padding: 10px;
 }
 h3.admin-above-wide-table {
-    background: none repeat scroll 0 0 #CCCCCC;
-    border-color: #EEEEEE;
-    border-radius: 5px 5px 0 0;
-    border-style: solid;
-    border-width: 1px 1px 0;
-    font-family: Georgia,"Times New Roman","Bitstream Charter",Times,serif;
-    font-size: 15px;
-    letter-spacing: 2px;
-    line-height: 1;
-    margin: 0 0 0 22px;
-    max-width: 419px;
-    padding: 7px 10px;
-    text-shadow: 0 1px 0 #FFFFFF;
-    text-transform: uppercase;
+      background: none repeat scroll 0 0 #fff;
+  border-color: #EEEEEE;
+  /* border-radius: 5px 5px 0 0; */
+  border-style: solid;
+  border-width: 1px 1px 0;
+  font-family: Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+  font-size: 15px;
+  letter-spacing: 2px;
+  line-height: 1;
+  margin: 0 0 0 1px;
+  max-width: 171px;
+  padding: 7px 10px;
+  text-shadow: 0 1px 0 #FFFFFF;
+  text-transform: uppercase;
 }
 
 #single-table-wrapper {
